@@ -188,6 +188,21 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json','Con
 $result = curl_exec($ch);
 curl_close($ch);
 /*curl handle end*/
+
+require_once 'assets/PHPMailer/SMTPMailer.php';
+
+  $subject = "Selfpaced Tech - Instructor application submitted";
+  $body = "Dear Admin, <br>"
+  ."There is a new application for Selfpaced tech instructor position. Following are the details.<br>"
+  ."<br>Name: ".$name
+  ."<br>Phone: ".$phone
+  ."<br>Email address: ".$email
+  ."<br>Message: ".$message
+  ."<br>Resume: <a href='http://www.selfpacedtech.com/instructors/resumes/".$resume."' download>Resume File</a>"
+  ."<br><br><i>Webmaster,<br>Selfpaced Tech.</i>";
+
+  SMTPMailer('training@selfpacedtech.com', $subject,$body);
+
 echo "<script>
          $('document').ready(function(){
              $('#thankyouModal').modal('show');

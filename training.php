@@ -594,26 +594,6 @@ $to = $email;
 
 $subject = 'Thankyou for '.$course.' Enrollment Request at Selfpacedtech';
 
-$from = 'training@selfpacedtech.com';
-
-// To send HTML mail, the Content-type header must be set
-
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Create email headers
-
-$headers .= 'From: '.$from."\r\n".
-
-    'Reply-To: '.$from."\r\n" .
-
-    'X-Mailer: PHP/' . phpversion();
-
- 
-
-// Compose a simple HTML email message
-
 $message = '<html><body>';
 
 $message .= '<h1 style="color:#f40;">Hi '.$name.'!</h1>';
@@ -630,23 +610,6 @@ $message .= '</body></html>';
 $to1 = 'training@selfpacedtech.com';
 
 $subject1 = $course.' Enrollment Request at Selfpacedtech';
-
-$from1 = 'training@selfpacedtech.com';
-
-// To send HTML mail, the Content-type header must be set
-
-$headers1  = 'MIME-Version: 1.0' . "\r\n";
-
-$headers1 .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Create email headers
-
-$headers1 .= 'From: '.$email."\r\n".
-
-    'Reply-To: '.$email."\r\n" .
-
-    'X-Mailer: PHP/' . phpversion();
-
  
 
 // Compose a simple HTML email message
@@ -671,8 +634,10 @@ $message1 .= '</body></html>';
 
 
 // Sending email
+require_once 'assets/PHPMailer/SMTPMailer.php';
+  SMTPMailer($to, $subject,$message);
+  SMTPMailer($to1, $subject1,$message1);
 
-if(mail($to, $subject, $message, $headers)&&mail($to1, $subject1, $message1, $headers1)){
 
   echo "<script>
          $('document').ready(function(){
@@ -680,7 +645,6 @@ if(mail($to, $subject, $message, $headers)&&mail($to1, $subject1, $message1, $he
          });
     </script>";   //result
 
-} 
 
 }
 
@@ -719,21 +683,6 @@ $to = $email;
 $subject = 'Thankyou for '.$course.' Schedule Request at Selfpacedtech';
 
 $from = 'training@selfpacedtech.com';
-
-// To send HTML mail, the Content-type header must be set
-
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Create email headers
-
-$headers .= 'From: '.$from."\r\n".
-
-    'Reply-To: '.$from."\r\n" .
-
-    'X-Mailer: PHP/' . phpversion();
-
  
 
 // Compose a simple HTML email message
@@ -758,20 +707,6 @@ $subject1 = $course.' Schedule Request at Selfpacedtech';
 $from1 = 'training@selfpacedtech.com';
 
 // To send HTML mail, the Content-type header must be set
-
-$headers1  = 'MIME-Version: 1.0' . "\r\n";
-
-$headers1 .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-// Create email headers
-
-$headers1 .= 'From: '.$email."\r\n".
-
-    'Reply-To: '.$email."\r\n" .
-
-    'X-Mailer: PHP/' . phpversion();
-
- 
 
 // Compose a simple HTML email message
 
@@ -798,7 +733,9 @@ $message1 .= '</body></html>';
 
 // Sending email
 
-if(mail($to, $subject, $message, $headers)&&mail($to1, $subject1, $message1, $headers1)){
+require_once 'assets/PHPMailer/SMTPMailer.php';
+  SMTPMailer($to, $subject,$message);
+  SMTPMailer($to1, $subject1,$message1);
 
   echo "<script>
          $('document').ready(function(){
@@ -806,7 +743,6 @@ if(mail($to, $subject, $message, $headers)&&mail($to1, $subject1, $message1, $he
          });
     </script>";   //result
 
-} 
 }
 ?>
   </body>

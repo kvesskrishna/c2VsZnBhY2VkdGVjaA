@@ -31,7 +31,7 @@ include_once('header.php');?>
 </div>
 
 <div class="col-md-offset-2 col-md-8">
-<form class="form form-horizontal"  method="post" action="#" enctype="multipart/form-data">
+<form class="form form-horizontal"  method="post" action="postContact" enctype="multipart/form-data">
 <h6 class="text-center">In case of any queries or requirements, please write to us, we will get back to you</h6>
   <div class="form-group">
   <label class="control-label col-md-4">Name</label>
@@ -101,7 +101,7 @@ include_once('header.php');?>
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Thank you for your interest to join as instructor with us.</h4>
+                <h4 class="modal-title">Thank you for your interest with us.</h4>
             </div>
             <div class="modal-body">
               <center>Our representative will get back to you shortly.<br>
@@ -192,3 +192,16 @@ echo "<script>
          });
     </script>";   //result
 }
+
+
+if (isset($_SESSION['success'])) {
+  echo "<script>
+         $('document').ready(function(){
+             $('#thankyouModal').modal('show');
+         });
+    </script>";   //result
+unset($_SESSION['success']);
+}
+
+
+
