@@ -1,0 +1,259 @@
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/selfpt47/public_html/services/api.php on line 113
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/selfpt47/public_html/services/api.php on line 113
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/selfpt47/public_html/services/api.php on line 113
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/selfpt47/public_html/services/api.php on line 113
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Warning:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/selfpt47/public_html/services/api.php on line 113
+[21-Sep-2017 10:24:15 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:45 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[29-Dec-2017 12:52:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Warning:  mysqli_real_connect(): (42000/1203): User selfpt47_dev17 already has more than 'max_user_connections' active connections in /home/selfpt47/public_html/services/api.php on line 113
+[16-Jan-2018 05:10:46 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Connect failed. User selfpt47_dev17 already has more than 'max_user_connections' active connections' in /home/selfpt47/public_html/services/api.php:115
+Stack trace:
+#0 /home/selfpt47/public_html/services/api.php(1333): MySQL->connect('localhost', 'selfpt47_dev17', 'dev17', 'selfpt47_dev17', NULL, NULL, 'utf8')
+#1 /home/selfpt47/public_html/services/api.php(1823): PHP_CRUD_API->__construct(Array)
+#2 {main}
+  thrown in /home/selfpt47/public_html/services/api.php on line 115

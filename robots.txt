@@ -1,0 +1,24 @@
+# FULL access (Google)
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /sitemap/
+
+#  FULL access (Alta Vista)
+User-agent: Scooter
+Disallow: /admin/
+Disallow: /sitemap/
+
+#  FULL access (FAST/AllTheWeb)
+User-agent: FAST-WebCrawler
+Disallow: /admin/
+Disallow: /sitemap/
+
+#  FULL access (Inktomi)
+User-agent: Slurp
+Disallow: /admin/
+Disallow: /sitemap/
+
+#  FULL access (Lycos)
+User-agent: Lycos_Spider_(T-Rex)
+Disallow: /admin/
+Disallow: /sitemap/

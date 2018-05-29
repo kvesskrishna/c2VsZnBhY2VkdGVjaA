@@ -1,0 +1,6 @@
+ DirectoryIndex home.php
+
+RewriteEngine on
+
+RewriteRule ^training-([a-zA-Z0-9\-]+|)/?$ training.php?course=$1
+Redirect 301 /dev17 http://www.selfpacedtech.com/
