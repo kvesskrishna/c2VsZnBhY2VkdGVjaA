@@ -6,27 +6,23 @@
           <div class="col-xs-6 col-md-3">
             <h6>Selfpaced Tech</h6>
             <ul class="footer-links">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">News &amp; Media</a></li>
+              <li><a href="/#howitworks">About us</a></li>
+              <li><a href="#">Watch Our Demos</a></li>
               <li><a href="contact">Contact Us</a></li>
-              <li><a href="#">Blog</a></li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Work with us</h6>
             <ul class="footer-links">
-              <li><a href="#">Careers</a></li>
               <li><a href="forinstructor">Become an Instructor</a></li>
-              
-              <li><a href="#">Hire from Selfpaced Tech</a></li>
             </ul>
           </div>
 
            <div class="col-xs-6 col-md-3">
             <h6>Useful Links</h6>
             <ul class="footer-links">
-              <li><a href="#">Reviews</a></li>
+              <li><a href="/#reviews">Reviews</a></li>
               <li><a href="#">Terms &amp; Conditions</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
@@ -34,11 +30,11 @@
 
           <div class="col-xs-6 col-md-3">
             <h6>Trending </h6>
-            <ul class="footer-links">
-              <li><a href="#">Programming &amp; Web Development</a></li>
-              <li><a href="#">Mobile App Develeopment Training</a></li>
-              <li><a href="#">Software Testing Training</a></li>
-              <li><a href="#">Project Management Training</a></li>
+             <ul class="footer-links">
+              <li><a href="training-angular-js">Angular 4 &amp; 5</a></li>
+              <li><a href="training-devops-with-aws">DevOps with AWS</a></li>
+              <li><a href="training-spark-and-scala">Spark and Scala</a></li>
+              <li><a href="training-drupal-8">Drupal 8</a></li>
             </ul>
           </div>
         </div>
@@ -51,7 +47,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyrights &copy; 2017 All Rights Reserved by <a href="http://www.selfpacedtech.com">Selfpaced Tech</a>.</p>
+            <p class="copyright-text">Copyrights &copy; 2018 All Rights Reserved by <a href="http://www.selfpacedtech.com">Selfpaced Tech</a>.</p>
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">

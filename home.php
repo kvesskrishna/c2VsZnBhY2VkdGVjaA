@@ -53,18 +53,22 @@ include_once('header.php');?>
       <!-- Metric Strip -->
         <?php include_once('metricstrip.php');?>
       <!-- END Metric Strip -->
-
+<div id="howitworks">
       <!-- How it works -->
         <?php include_once('howitworks.php');?>
       <!-- END How it works -->
+	
+</div>
 
       <!-- highlights -->
         <?php include_once('highlights.php');?>
       <!-- END highlights -->
-
-      <!--Testimonial carousel-->
+<div id="reviews">
+	  <!--Testimonial carousel-->
         <?php include_once('testimonials.php');?>
       <!--End Testimonial carousel-->
+    
+</div>
       
       <!--client carousel-->
         <?php include_once('clientslider.php');?>
