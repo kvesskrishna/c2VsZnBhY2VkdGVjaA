@@ -18,7 +18,7 @@ include_once('header.php');?>
   <h2 class="text-center">Live Session</h2>
   <hr>
 
-  <img src="assets/img/livesessions.png" style="border:30px solid #fff;border-top:0px;height:50%;width:50%;float: right;" class="img-responsive">
+  <img src="assets/img/livesessions.png" alt="Live sessions on SelfPacedTech" style="border:30px solid #fff;border-top:0px;height:50%;width:50%;float: right;" class="img-responsive">
  <p>     
      Learn on the go, Anywhere, Anytime as per your choise right on your computer screen.<br>
      You directly learn and interact with a live expert instructor, the same as you do if you attended a physical classroom training. 

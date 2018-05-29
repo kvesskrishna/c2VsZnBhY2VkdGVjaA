@@ -6,7 +6,7 @@
           </header>
 
           <div class="category-grid">
-            <a href="#">
+            <a href="live-sessions">
               <i class="fa fa-laptop"></i>
               <h6>Live Sessions</h6>
               <p>Learn on the go, anywhere, anytime as per your choice right on your computer screen</p>

@@ -7,7 +7,7 @@
             <h6>Selfpaced Tech</h6>
             <ul class="footer-links">
               <li><a href="/#howitworks">About us</a></li>
-              <li><a href="#">Watch Our Demos</a></li>
+              <li><a href="demo-videos">Watch Our Demos</a></li>
               <li><a href="contact">Contact Us</a></li>
             </ul>
           </div>
@@ -52,12 +52,13 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="https://www.facebook.com/Selfpaced-Tech-1573108939412827/"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="http://www.twitter.com/selfpacedtech"><i class="fa fa-twitter"></i></a></li>
+              <li><a target="_blank" class="facebook" href="https://www.facebook.com/Selfpaced-Tech-1573108939412827/"><i class="fa fa-facebook"></i></a></li>
+              <li><a target="_blank" class="twitter" href="http://www.twitter.com/selfpacedtech"><i class="fa fa-twitter"></i></a></li>
             
-              <li><a class="linkedin" href="
+              <li><a target="_blank" class="linkedin" href="
 https://www.linkedin.com/company/13457782/"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="instagram" href="http://www.instagram.com/selfpacedtech4131"><i class="fa fa-instagram"></i></a></li>
+              <li><a target="_blank" class="instagram" href="http://www.instagram.com/selfpacedtech4131"><i class="fa fa-instagram"></i></a></li>
+              <li><a target="_blank" class="youtube" href="https://www.youtube.com/channel/UCbXQehc5ezd9FxHkvMnrvcA"><i class="fa fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>
@@ -72,6 +73,7 @@ https://www.linkedin.com/company/13457782/"><i class="fa fa-linkedin"></i></a></
         <li><a href="
 https://www.linkedin.com/company/13457782/" class="ssa entypo-linkedin" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a></li>
         <li><a href="http://www.instagram.com/selfpacedtech4131" class="ssa entypo-instagrem" target="_blank"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCbXQehc5ezd9FxHkvMnrvcA" class="ssa entypo-gplus" target="_blank"><i class="fa fa-youtube"></i><span>Youtube</span></a></li>
       
         </ul>
 </aside>
