@@ -25,16 +25,16 @@ include_once('header.php');?>
        </p>
        <p>
         <ul style="list-style: none;">
-<li>Live Online Sessions –
+<li><strong>Live Online Sessions </strong> –
 Live Interactive Sessions, Step-by-step live demonstrations.</li><br>
 
-<li>Learn from the Experts –
+<li><strong>Learn from the Experts</strong>–
 Expert who has tremendous industry experience.</li><br>
 
-<li>Learn Anywhere –
+<li><strong>Learn Anywhere</strong>–
 At your comfort, learn from your home or work place. Save tavelling time.</li><br>
 
-<li>Missed a class? Not an issue –
+<li><strong>Missed a class? Not an issue</strong> –
 Every session will be recorded and will be mailed to you soon after session.</li>
      </ul></p>
   
