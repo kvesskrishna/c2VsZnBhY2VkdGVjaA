@@ -12,7 +12,7 @@
               <p>Learn on the go, anywhere, anytime as per your choice right on your computer screen</p>
             </a>
 
-            <a href="#">
+            <a href="learning-managment-system">
               <i class="fa fa-bolt"></i>
               <h6>Anytime access to LMS</h6>
               <p>Get lifetime access to the entire course content including notes and assignments</p>
