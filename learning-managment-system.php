@@ -5,43 +5,32 @@ include_once('header.php');?>
 <?php include_once('analytictracker.php');?>
   <!-- Navigation bar -->
     <?php include_once('nav.php');?>
-    <div style="background-color: black;height: 100px;">
-</div>
-  
   <!-- END Navigation bar -->
+  <div style="background-color: black;height: 100px;">
+</div>
   
   <!-- Main container -->
     <main>
       <!-- For Business -->
 <div class="container">
+
 <div class="row">
-  <h2 class="text-center">Live Session</h2>
+  <h2 class="text-center">Learning Managment System</h2>
   <hr>
 
-  <img src="assets/img/livesessions.png" alt="Live sessions on SelfPacedTech" style="border:30px solid #fff;border-top:0px;height:50%;width:50%;float: right;" class="img-responsive">
+  <img src="assets/img/lms.png" style="border:30px solid #fff;border-top:0px;height:50%;width:50%;float: right;">
  <p>     
-     Learn on the go, Anywhere, Anytime as per your choise right on your computer screen.<br>
-     You directly learn and interact with a live expert instructor, the same as you do if you attended a physical classroom training. 
+     Get lifetime access to entire course content including notes and assignments<br> 
        </p>
        <p>
         <ul style="list-style: none;">
-<li><strong>Live Online Sessions </strong> –
-Live Interactive Sessions, Step-by-step live demonstrations.</li><br>
+<li>ALL OF YOUR LEARNING UNDER ONE ROOF</li><br>
 
-<li><strong>Learn from the Experts</strong>–
-Expert who has tremendous industry experience.</li><br>
+<li>REAL-TIME ACCESS ANYTIME, ANYWHERE USING LMS</li><br>
 
-<li><strong>Learn Anywhere</strong>–
-At your comfort, learn from your home or work place. Save tavelling time.</li><br>
-
-<li><strong>Missed a class? Not an issue</strong> –
-Every session will be recorded and will be mailed to you soon after session.</li>
      </ul></p>
   
-
 </div>
-</div>
-
 
 </div>
       
